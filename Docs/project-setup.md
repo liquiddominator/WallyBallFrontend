@@ -8,6 +8,12 @@ npm install
 
 ## Desarrollo
 
+Crear `.env.local` si los puertos son distintos a los valores por defecto:
+
+```powershell
+Copy-Item .\.env.example .\.env.local
+```
+
 ```powershell
 npm run dev
 ```

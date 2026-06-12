@@ -27,6 +27,8 @@ GET /api/v1/auth/me
 
 Servicio: `personas-service`.
 
+Estado frontend: implementado en `src/pages/auth/LoginPage.tsx`.
+
 ### Registro de Organizador
 
 Rol: publico o flujo administrativo inicial.
@@ -40,6 +42,8 @@ POST /api/v1/auth/register
 ```
 
 Servicio: `personas-service`.
+
+Estado frontend: implementado en `src/pages/auth/RegisterPage.tsx`.
 
 ## Organizador
 
@@ -78,6 +82,8 @@ PATCH /api/v1/campeonatos/{campeonatoId}/finalizar
 
 Servicio: `wally-service`.
 
+Estado frontend: implementado en `src/pages/organizador/CampeonatosPage.tsx`.
+
 ### Categorias
 
 Rol: `ORGANIZADOR`.
@@ -95,6 +101,8 @@ POST /api/v1/campeonatos/{campeonatoId}/categorias
 ```
 
 Servicio: `wally-service`.
+
+Estado frontend: implementado en `src/pages/organizador/CategoriasPage.tsx`.
 
 ### Equipos
 
@@ -294,6 +302,8 @@ GET /api/v1/gestion/roles/{rolId}
 ```
 
 Servicio: `personas-service`.
+
+Estado frontend: implementado en `src/pages/auth/ChangePasswordPage.tsx`.
 
 ### Gestion de Usuarios
 
